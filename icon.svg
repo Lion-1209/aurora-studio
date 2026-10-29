@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Aurora Studio">
+  <defs>
+    <linearGradient id="aurora-studio-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c6cf6"/>
+      <stop offset="0.52" stop-color="#3fa9f5"/>
+      <stop offset="1" stop-color="#2fe3b4"/>
+    </linearGradient>
+    <linearGradient id="aurora-studio-band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="aurora-studio-face" x1="0.28" y1="0" x2="0.72" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ebe5ff"/>
+    </linearGradient>
+    <radialGradient id="aurora-studio-shine" cx="0.28" cy="0.18" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- aurora gradient rounded square -->
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#aurora-studio-sky)"/>
+  <path d="M4 84 C 30 62 52 104 82 80 C 102 64 114 70 124 60 L124 94 C 106 106 92 92 74 100 C 50 110 26 96 4 108 Z" fill="url(#aurora-studio-band)"/>
+  <path d="M4 108 C 28 94 48 112 74 102 C 98 93 112 102 124 92 L124 124 L4 124 Z" fill="#ffffff" opacity="0.08"/>
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#aurora-studio-shine)"/>
+
+  <!-- pet face: a tiny white cat with big friendly eyes -->
+  <g>
+    <path d="M40 56 L34 28 Q33 22 39.5 25.5 L60 39 Z" fill="url(#aurora-studio-face)"/>
+    <path d="M88 56 L94 28 Q95 22 88.5 25.5 L68 39 Z" fill="url(#aurora-studio-face)"/>
+    <path d="M44 50 L39.5 33 L54 42.5 Z" fill="#c9b8ff"/>
+    <path d="M84 50 L88.5 33 L74 42.5 Z" fill="#c9b8ff"/>
+
+    <circle cx="64" cy="73" r="34" fill="#2b2440" opacity="0.14"/>
+    <circle cx="64" cy="70" r="34" fill="url(#aurora-studio-face)"/>
+    <path d="M35 64 C 39 47 50 38 64 38 C 55 45 48 55 46 70 Z" fill="#ffffff" opacity="0.6"/>
+
+    <ellipse cx="51" cy="68" rx="6.4" ry="7.8" fill="#2b2440"/>
+    <ellipse cx="77" cy="68" rx="6.4" ry="7.8" fill="#2b2440"/>
+    <circle cx="49" cy="65.2" r="2.5" fill="#ffffff"/>
+    <circle cx="75" cy="65.2" r="2.5" fill="#ffffff"/>
+
+    <ellipse cx="39.5" cy="80" rx="6" ry="3.6" fill="#ff8fb0" opacity="0.62"/>
+    <ellipse cx="88.5" cy="80" rx="6" ry="3.6" fill="#ff8fb0" opacity="0.62"/>
+
+    <path d="M60.6 76.4 Q64 73.6 67.4 76.4 Q64 79.6 60.6 76.4 Z" fill="#ff8fa8"/>
+    <path d="M57.5 82.5 Q64 88.5 70.5 82.5" fill="none" stroke="#2b2440" stroke-width="2.8" stroke-linecap="round"/>
+
+    <path d="M101 20 Q102.3 26.2 108.5 27.5 Q102.3 28.8 101 35 Q99.7 28.8 93.5 27.5 Q99.7 26.2 101 20 Z" fill="#ffffff" opacity="0.92"/>
+    <circle cx="25" cy="29" r="2.6" fill="#ffffff" opacity="0.7"/>
+  </g>
+</svg>
